@@ -5,10 +5,10 @@ export default function Footer() {
   return (
     <footer className="main-footer">
       <section>
-        <i class="fa fa-instagram" aria-hidden="true"></i>
-        <i class="fa fa-google-plus" aria-hidden="true"></i>
-        <i class="fa fa-linkedin" aria-hidden="true"></i>
-        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i className="fa fa-instagram" aria-hidden="true"></i>
+        <i className="fa fa-google-plus" aria-hidden="true"></i>
+        <i className="fa fa-linkedin" aria-hidden="true"></i>
+        <i className="fa fa-twitter" aria-hidden="true"></i>
       </section>
       <section className="content-footer">
         <article className="about-us-footer">
