@@ -65,6 +65,38 @@ export default function MainPage() {
               </p>
             </article>
           </section>
+          <section className="second-section">
+            <p>پیشنهادهای جهانگردی آلترابو</p>
+          </section>
+          <section className="third-section">
+            <p>پیشنهادهای ایرانگردی آلترابو</p>
+          </section>
+          <section className="newsletter">
+            <img src="/Group-vacation.png" alt="Group-vacation" />
+            <span>
+              <p>
+                با عضویت در خبرنامه آلترابو از پیشنهادات شگفت انگیز ما زودتر از
+                بقیه باخبر میشین
+              </p>
+              <input placeholder="آدرس ایمیلتان را وارد کنید" />
+              <button>عضویت در خبرنامه</button>
+            </span>
+          </section>
+          <section className="fancy">
+            <h2>هر جای دنیا که برید آلترابو ههمراهتونه!</h2>
+
+            <span className="fancy-img">
+              <img src="Group-park.png" alt="Group-park" />
+              <img src="/Group-WindMill.png" alt="Group-WindMill" />
+              <img src="/Group-pisaTower.png" alt="Group-pisaTower" />
+              <img
+                src="/Group-forbiddenCastle.png"
+                alt="Group-forbiddenCastle"
+              />
+              <img src="/Group-eiffelTower.png" alt="Group-eiffelTower" />
+              <img src="/Group-mountain.png" alt="Group-mountain" />
+            </span>
+          </section>
         </main>
       </div>
     </div>
