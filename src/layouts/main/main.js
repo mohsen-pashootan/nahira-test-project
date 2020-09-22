@@ -15,12 +15,30 @@ export default function MainPage() {
             <span>ورود/عضویت</span>
             <span className="lang">فارسی </span>
           </nav>
+
           <section className="search-service">
-            <div></div>
-            <div></div>
+            <div className="tickets">
+              <span className="tickets-airplane">
+                <img src="/airplane.png" alt="airplane" />
+                <p>بلیط هواپیما</p>
+              </span>
+              <span className="train-airplane">
+                <img src="/train.png" alt="train" />
+                <p>بلیط قطار</p>
+              </span>
+              <span className="bus-airplane">
+                <img src="/bus.png" alt="bus" />
+                <p>بلیط اتوبوس</p>
+              </span>
+              <span className="hotel-airplane">
+                <img src="/hotel.png" alt="hotel" />
+                <p>رزرو هتل</p>
+              </span>
+            </div>
+            <div className="search-inputs"></div>
           </section>
         </header>
-        <body>
+        <main>
           <section className="first-section">
             <article className="article">
               <img src="/suitcase.png" alt="suitcase" />
@@ -39,7 +57,7 @@ export default function MainPage() {
               </p>
             </article>
             <article className="article">
-              <img src="/hotel.png" alt="hotel" />
+              <img src="/hotel2.png" alt="hotel" />
               <h3>لورم ایپسوم</h3>
               <p>
                 لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
@@ -47,7 +65,7 @@ export default function MainPage() {
               </p>
             </article>
           </section>
-        </body>
+        </main>
       </div>
     </div>
   );

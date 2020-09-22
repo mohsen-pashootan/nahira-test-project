@@ -23,7 +23,7 @@
 
 .nav {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     position: absolute;
     justify-content: space-around;
     align-items: center;
@@ -52,9 +52,12 @@
     justify-self: flex-end;
 }
 
+
+/*-------service-searches---*/
 .search-service {
-    padding: 120px 5px 120px 100px;
+    padding: 30px 15px 50px 50px;
     width: 65%;
+    height: auto;
     margin-top: 280px;
     background-color: white;
     border-radius: 20px;
@@ -62,26 +65,60 @@
 
 }
 
-/*----------body-----------*/
+.tickets {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 40px;
+    flex-direction: row;
+    border-bottom: 2px solid #E9E9E9;
+}
+
+.tickets span {
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+
+/*----------main-----------*/
 .first-section {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     align-items: center;
-    justify-items: center;
+    justify-content: center;
+
 }
 
 .article {
     flex-flow: column wrap;
     align-items: center;
     justify-items: center;
+
+}
+
+.article:first-child {
+    margin-left: 120px;
+}
+
+.article:last-child {
+    margin-right: 120px;
 }
 
 .article h3 {
     text-align: center;
 }
 
+.article p {
+    width: 220px;
+    overflow: hidden;
+    text-align: center;
+}
+
 .article img {
-    width: 100px;
+    width: 85px;
     height: 140px;
-    align-self: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
