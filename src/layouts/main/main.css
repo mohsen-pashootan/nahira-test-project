@@ -19,13 +19,11 @@
     position: relative;
 }
 
-
-
+/*-----------navBar-----------------*/
 .nav {
     display: flex;
     flex-direction: row;
     position: absolute;
-    justify-content: space-around;
     align-items: center;
     background-color: white;
     padding: 15px 5px 15px 100px;
@@ -33,23 +31,60 @@
     width: 65%;
     border-radius: 0px 0px 25px 25px;
     z-index: 2;
-
 }
 
-.nav img {
-    width: 65px;
-    height: 50px;
+.logo-nav {
+    position: relative;
+    text-align: center;
+    right: 5%;
 }
 
-.nav span {
+.logo-nav h4 {
+    position: absolute;
+    top: 6%;
+    right: 42%;
+    color: #2E5D6A;
+}
+
+.logo-nav img {
+    width: 55px;
+    height: 42px;
+}
+
+.tickets-nav {
+    position: relative;
+    right: 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.tickets-nav p {
     text-decoration: none;
-    color: black;
-    margin: 0px 5px;
-
+    color: #2E5D6A;
+    margin-left: 40px;
+    display: inline-flex;
 }
 
-.lang {
-    justify-self: flex-end;
+.tickets-nav img {
+    width: 25px;
+    margin-left: 2px;
+}
+
+.tickets-nav p:last-child {
+    margin-right: 220px;
+}
+
+.lang img {
+    margin-left: 10px;
+}
+
+.lang span:first-child {
+    margin-left: 10px;
+}
+
+.lang span:last-child {
+    margin-right: 10px;
 }
 
 

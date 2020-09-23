@@ -11,13 +11,26 @@ export default function MainPage() {
       <div className="container">
         <header className="header">
           <nav className="nav">
-            <img src="/logo-altra.png" alt="" />
-            <span>بلیط هواپیما</span>
-            <span>بلیط قطار</span>
-            <span>بلیط اتوبوس</span>
-            <span>رزرو هتل</span>
-            <span>ورود/عضویت</span>
-            <span className="lang">فارسی </span>
+            <span className="logo-nav">
+              <img src="/logo-altra.png" alt="logo-altra" />
+              <h4>آلترابو</h4>
+            </span>
+            <span className="tickets-nav">
+              <p>بلیط هواپیما</p>
+              <p>بلیط قطار</p>
+              <p> بلیط اتوبوس </p>
+              <p>رزرو هتل</p>
+              <p>
+                <img src="/ic_account_circle.png" alt="ic_account_circle" />
+                ورود/عضویت
+              </p>
+              <p className="lang">
+                <span>&#10094;</span>
+                <img src="/ir.png" alt="ir" />
+                فارسی
+                <span>&#10095;</span>
+              </p>
+            </span>
           </nav>
 
           <section className="search-service">
