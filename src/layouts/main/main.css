@@ -152,6 +152,24 @@
     height: 420px;
 }
 
+.image-container {
+    position: relative;
+    text-align: center;
+    color: #2E5D6A;
+}
+
+.image-container h3 {
+    position: absolute;
+    background-color: #FFDF00;
+    top: 83%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px 60px 18px;
+    border-radius: 20px 20px 0px 0px;
+
+
+}
+
 /*----------third section-----------*/
 .third-section h2 {
     color: #2E5D6A;

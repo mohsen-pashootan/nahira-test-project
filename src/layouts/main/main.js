@@ -66,48 +66,50 @@ export default function MainPage() {
               </p>
             </article>
           </section>
+
           <section className="second-section">
             <h2>پیشنهادهای جهانگردی آلترابو</h2>
             <span className="tours-carousel">
-              <artice>
+              <artice className="image-container">
                 <img
                   src="Kuala-Lumpur-malaysia.png"
                   alt="Kuala-Lumpur-malaysia"
                 />
-                <span></span>
+                <h3>کوالالامپور</h3>
               </artice>
-              <artice>
+              <artice className="image-container">
                 <img src="/Dubai-Skyline.png" alt="Dubai-Skyline" />
-                <span></span>
+                <h3>دبی</h3>
               </artice>
-              <artice>
+              <artice className="image-container">
                 <img src="/pekan.png" alt="pekan" />
-                <span></span>
+                <h3>پکن</h3>
               </artice>
-              <artice>
+              <artice className="image-container">
                 <img src="/istanbul.png" alt="istanbul" />
-                <span></span>
+                <h3>استانبول</h3>
               </artice>
             </span>
           </section>
+
           <section className="third-section">
             <h2>پیشنهادهای ایرانگردی آلترابو</h2>
             <span className="tours-carousel">
-              <artice>
+              <artice className="image-container">
                 <img src="/isfahan.png" alt="isfahan" />
-                <span></span>
+                <h3>اصفهان</h3>
               </artice>
-              <artice>
+              <artice className="image-container">
                 <img src="/tabriz-urbanization.png" alt="tabriz-urbanization" />
-                <span></span>
+                <h3>تبریز</h3>
               </artice>
-              <artice>
+              <artice className="image-container">
                 <img src="/Haafezie.png" alt="Haafezie" />
-                <span></span>
+                <h3>شیراز</h3>
               </artice>
-              <artice>
+              <artice className="image-container">
                 <img src="/mashhad.png" alt="mashhad" />
-                <span></span>
+                <h3>مشهد</h3>
               </artice>
             </span>
           </section>
