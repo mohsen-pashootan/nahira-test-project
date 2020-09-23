@@ -109,12 +109,14 @@
 
 .article h3 {
     text-align: center;
+    color: #2E5D6A;
 }
 
 .article p {
     width: 220px;
     overflow: hidden;
     text-align: center;
+    color: #33B8BF;
 }
 
 .article img {
@@ -130,6 +132,7 @@
 .second-section h2 {
     color: #2E5D6A;
     text-align: center;
+    margin-top: 100px;
 }
 
 .tours-carousel {
@@ -153,6 +156,7 @@
 .third-section h2 {
     color: #2E5D6A;
     text-align: center;
+    margin-top: 100px;
 
 }
 
