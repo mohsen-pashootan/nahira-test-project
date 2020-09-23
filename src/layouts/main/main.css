@@ -132,32 +132,6 @@
 
 /*----------third section-----------*/
 
-/*----------newsletter-----------*/
-
-.newsletter {
-    background-color: #E6F7F8;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 50px 0px 50px;
-}
-
-.newsletter img {
-    width: 357px;
-    height: 350px;
-    margin-left: 130px;
-}
-
-.newsletter input {
-    border-radius: 5px;
-    border: 2px solid #B7B7B7;
-    width: 30%;
-}
-
-.newsletter p {
-    color: #2E5D6A;
-}
 
 /*----------fancy icons-----------*/
 

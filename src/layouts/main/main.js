@@ -1,4 +1,5 @@
 import React from "react";
+import NewsLetter from "./../../components/newsletter/newsletter";
 import "./main.css";
 
 export default function MainPage() {
@@ -71,17 +72,7 @@ export default function MainPage() {
           <section className="third-section">
             <p>پیشنهادهای ایرانگردی آلترابو</p>
           </section>
-          <section className="newsletter">
-            <img src="/Group-vacation.png" alt="Group-vacation" />
-            <span>
-              <p>
-                با عضویت در خبرنامه آلترابو از پیشنهادات شگفت انگیز ما زودتر از
-                بقیه باخبر میشین
-              </p>
-              <input placeholder="آدرس ایمیلتان را وارد کنید" />
-              <button>عضویت در خبرنامه</button>
-            </span>
-          </section>
+          <NewsLetter />
           <section className="fancy">
             <h2>هر جای دنیا که برید آلترابو ههمراهتونه!</h2>
 
