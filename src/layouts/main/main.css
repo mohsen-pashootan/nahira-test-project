@@ -119,14 +119,22 @@
     color: #33B8BF;
 }
 
-.article img {
+.article:first-child img {
     width: 85px;
     height: 140px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-
 }
+
+.article img {
+    width: 100px;
+    height: 140px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 /*----------second section-----------*/
 .second-section h2 {
