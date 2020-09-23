@@ -1,5 +1,8 @@
 import React from "react";
+import Carousel from "../../components/carousel/carousel";
 import NewsLetter from "./../../components/newsletter/newsletter";
+import { SeederCarouselTorism } from "../../containers/seeder-carousel";
+import { seederCarouselIranTorism } from "../../containers/seeder-carousel";
 import "./main.css";
 
 export default function MainPage() {
@@ -36,7 +39,9 @@ export default function MainPage() {
                 <p>رزرو هتل</p>
               </span>
             </div>
-            <div className="search-inputs"></div>
+            <div className="search-inputs">
+              <button>جستجو</button>
+            </div>
           </section>
         </header>
         <main>
@@ -69,56 +74,16 @@ export default function MainPage() {
 
           <section className="second-section">
             <h2>پیشنهادهای جهانگردی آلترابو</h2>
-            <span className="tours-carousel">
-              <artice className="image-container">
-                <img
-                  src="Kuala-Lumpur-malaysia.png"
-                  alt="Kuala-Lumpur-malaysia"
-                />
-                <h3>کوالالامپور</h3>
-              </artice>
-              <artice className="image-container">
-                <img src="/Dubai-Skyline.png" alt="Dubai-Skyline" />
-                <h3>دبی</h3>
-              </artice>
-              <artice className="image-container">
-                <img src="/pekan.png" alt="pekan" />
-                <h3>پکن</h3>
-              </artice>
-              <artice className="image-container">
-                <img src="/istanbul.png" alt="istanbul" />
-                <h3>استانبول</h3>
-              </artice>
-
-              <span className="prev">&#10095;</span>
-              <span className="next">&#10094;</span>
-            </span>
+            <Carousel SeederCarouse={SeederCarouselTorism} />
           </section>
 
           <section className="third-section">
             <h2>پیشنهادهای ایرانگردی آلترابو</h2>
-            <span className="tours-carousel">
-              <artice className="image-container">
-                <img src="/isfahan.png" alt="isfahan" />
-                <h3>اصفهان</h3>
-              </artice>
-              <artice className="image-container">
-                <img src="/tabriz-urbanization.png" alt="tabriz-urbanization" />
-                <h3>تبریز</h3>
-              </artice>
-              <artice className="image-container">
-                <img src="/Haafezie.png" alt="Haafezie" />
-                <h3>شیراز</h3>
-              </artice>
-              <artice className="image-container">
-                <img src="/mashhad.png" alt="mashhad" />
-                <h3>مشهد</h3>
-              </artice>
-              <span className="prev">&#10095;</span>
-              <span className="next">&#10094;</span>
-            </span>
+            <Carousel SeederCarouse={seederCarouselIranTorism} />
           </section>
+
           <NewsLetter />
+
           <section className="fancy">
             <h2>هر جای دنیا که برید آلترابو ههمراهتونه!</h2>
 
