@@ -67,10 +67,49 @@ export default function MainPage() {
             </article>
           </section>
           <section className="second-section">
-            <p>پیشنهادهای جهانگردی آلترابو</p>
+            <h2>پیشنهادهای جهانگردی آلترابو</h2>
+            <span className="tours-carousel">
+              <artice>
+                <img
+                  src="Kuala-Lumpur-malaysia.png"
+                  alt="Kuala-Lumpur-malaysia"
+                />
+                <span></span>
+              </artice>
+              <artice>
+                <img src="/Dubai-Skyline.png" alt="Dubai-Skyline" />
+                <span></span>
+              </artice>
+              <artice>
+                <img src="/pekan.png" alt="pekan" />
+                <span></span>
+              </artice>
+              <artice>
+                <img src="/istanbul.png" alt="istanbul" />
+                <span></span>
+              </artice>
+            </span>
           </section>
           <section className="third-section">
-            <p>پیشنهادهای ایرانگردی آلترابو</p>
+            <h2>پیشنهادهای ایرانگردی آلترابو</h2>
+            <span className="tours-carousel">
+              <artice>
+                <img src="/isfahan.png" alt="isfahan" />
+                <span></span>
+              </artice>
+              <artice>
+                <img src="/tabriz-urbanization.png" alt="tabriz-urbanization" />
+                <span></span>
+              </artice>
+              <artice>
+                <img src="/Haafezie.png" alt="Haafezie" />
+                <span></span>
+              </artice>
+              <artice>
+                <img src="/mashhad.png" alt="mashhad" />
+                <span></span>
+              </artice>
+            </span>
           </section>
           <NewsLetter />
           <section className="fancy">

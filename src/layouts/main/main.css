@@ -127,11 +127,34 @@
 }
 
 /*----------second section-----------*/
+.second-section h2 {
+    color: #2E5D6A;
+    text-align: center;
+}
 
-/*----------second section-----------*/
+.tours-carousel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.tours-carousel img {
+    flex-flow: column wrap;
+    align-items: center;
+    justify-items: center;
+    width: 288px;
+    height: 420px;
+}
 
 /*----------third section-----------*/
+.third-section h2 {
+    color: #2E5D6A;
+    text-align: center;
 
+}
 
 /*----------fancy icons-----------*/
 
