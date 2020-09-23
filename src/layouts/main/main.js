@@ -89,6 +89,9 @@ export default function MainPage() {
                 <img src="/istanbul.png" alt="istanbul" />
                 <h3>استانبول</h3>
               </artice>
+
+              <span className="prev">&#10095;</span>
+              <span className="next">&#10094;</span>
             </span>
           </section>
 
@@ -111,6 +114,8 @@ export default function MainPage() {
                 <img src="/mashhad.png" alt="mashhad" />
                 <h3>مشهد</h3>
               </artice>
+              <span className="prev">&#10095;</span>
+              <span className="next">&#10094;</span>
             </span>
           </section>
           <NewsLetter />

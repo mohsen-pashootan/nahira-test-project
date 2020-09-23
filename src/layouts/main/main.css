@@ -148,9 +148,34 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
+.next,
+.prev {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px 22px;
+    margin-top: -22px;
+    color: #2E5D6A;
+    background-color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 50%;
+    user-select: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
+.next {
+    right: 13%;
+}
+
+.prev {
+    left: 13%;
+}
 
 .tours-carousel img {
     flex-flow: column wrap;
