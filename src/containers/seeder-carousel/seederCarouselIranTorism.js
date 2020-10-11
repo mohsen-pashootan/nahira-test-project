@@ -19,7 +19,7 @@ export default [
     id: 3,
     title: "شیراز",
     img: {
-      src: "/haafezie.png",
+      src: "/Haafezie.png",
       alt: "haafezie",
     },
   },
