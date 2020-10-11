@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Carousel from "../../components/carousel/carousel";
 import NewsLetter from "./../../components/newsletter/newsletter";
 import { SeederCarouselTorism } from "../../containers/seeder-carousel";
@@ -6,6 +6,9 @@ import { seederCarouselIranTorism } from "../../containers/seeder-carousel";
 import "./main.css";
 
 export default function MainPage() {
+  const [goBack, setGoBack] = useState("");
+  const [ages, setAges] = useState("");
+
   return (
     <div className="main-wrapper">
       <div className="container">
@@ -53,7 +56,33 @@ export default function MainPage() {
               </span>
             </div>
             <div className="search-inputs">
-              <button>جستجو</button>
+              <div>
+                <select
+                  value={goBack}
+                  onChange={(e) => setGoBack(e.target.value)}
+                  name="flight"
+                  className="select-tag-goback"
+                >
+                  <option value="1طرفه">یک طرفه</option>
+                  <option value="2طرفه">دو طرفه</option>
+                </select>
+                <select
+                  value={ages}
+                  onChange={(e) => setAges(e.target.value)}
+                  name="ages"
+                  className="select-tag-ages"
+                >
+                  <option value="بزرگسال">بزرگسال </option>
+                  <option value="کودک"> کودک</option>
+                </select>
+              </div>
+              <div>
+                <input type="text" className="from-origin" />
+                <span className="change-way-destination">Toggle</span>
+                <input type="text" className="to-destination" />
+                <input type="date" className="trip-date" />
+                <button>جستجو</button>
+              </div>
             </div>
           </section>
         </header>
@@ -87,12 +116,12 @@ export default function MainPage() {
 
           <section className="second-section">
             <h2>پیشنهادهای جهانگردی آلترابو</h2>
-            <Carousel SeederCarouse={SeederCarouselTorism} />
+            <Carousel seederCarouse={SeederCarouselTorism} />
           </section>
 
           <section className="third-section">
             <h2>پیشنهادهای ایرانگردی آلترابو</h2>
-            <Carousel SeederCarouse={seederCarouselIranTorism} />
+            <Carousel seederCarouse={seederCarouselIranTorism} />
           </section>
 
           <NewsLetter />
